@@ -1,0 +1,934 @@
+﻿Version 1.10.26 release Note：
+1. Fix bug：Copy/Move 時，當選取的檔案數量和同目錄底下的資料夾數量相同時，目的地清單中不會顯示該路徑
+2. Skytek SAPI 增加 nickname 防呆
+3. Fix bug： Skytek SAPI 移除系統群組底下的聯絡人失效
+
+
+Version 1.10.25 release Note：
+1. Skytek SAPI 支援
+   - 同一帳號可同時存在於不同系統群組底下
+   - 新增帳號時預設帳密相同
+   - 「更新使用者」可 新增/移除 系統群組底下的聯絡人
+
+
+Version 1.10.24 release Note：
+1. Fix bug： Web 無法上傳檔案
+
+
+Version 1.10.23 release Note：
+1. 修正 Sabre Dav 刪除檔案的方式，將「掃瞄資料夾底下的每個節點，再逐一刪除」改為「刪除資料夾」
+2. 當聯絡人沒有 nickname 的時候， 將 nickname 顯示為 id
+3. 更新 Group Share DB 欄位長度(至800)，以免分享成員過多時無法再新增成員
+4. Files Recycle APP v2.0，資料夾管理支援 Tree 顯示操作
+
+
+Version 1.10.22 release Note：
+1. Quota Bar APP：計算使用空間改為被動，以節省讀取效能
+2. Fix bug：使用 ipad 群組分享時，無法點選用戶/群組
+3. Notification APP：修改 Web 端通知顯示由 7 改為 5 筆
+4. Skytek SAPI 支援 - 新增「取得系統群組列表/取得系統群組底下聯絡人清單」
+
+
+Version 1.10.21 release Note：
+1. Public Share APP：加入智慧判斷，在新增分享時，如果分享原本就存在，則自動更新到期日
+2. 核心程式 OC_Files 支援，新增「isDir/isEmptyFolder」屬性
+3. U-Channel APP：將頻道列表 Hard code 的部份移除
+4. 修改 Web 端「copy/move」時讀取目錄選單程式以改善效能
+
+
+Version 1.10.20 release Note：
+1. Fix bug：呼叫 Audio Streaming APP 時，回覆的 URL 不正確
+2. Fix bug：IOS 呼叫連結分享管理 API 時，因回傳的時間格式不正確而造成 crash
+3. 如果使用者未驗證 email，則按鈕顯示「驗證Email」文字
+4. 修改通用 function [renamer]
+5. 核心程式修改 - 跨 user 讀取檔案系統
+
+
+Version 1.10.19 release Note：
+1. 解決 Sebde DAV 的 move 指令，其實是 copy 再 delete(無法正確執行相關的 hooks)
+2. 更新群組分享按鈕圖案
+3. 更新通用 function [pathForbiddenChar/deleteDirByFullPath]
+4. 新增通用 function  [renamer]可移動資料夾及底下所有檔案
+5. Fix bug：檔案 copy/rename 到同步資料夾底下，沒有寫入資料到同步 DB
+6. 連結分享v2.0版
+   - 新增分享連結密碼功能
+   - 新增資料夾分享功能
+   - 修復舊版bugs
+
+
+Version 1.10.18 release Note：
+1. 核心程式 OC_APP 修改 - 優化左邊選單相關程式
+2. U-Sync Get Quota APP：左邊選單新增「獲得更多空間」，點選後會開啟 U-Sync Quota 活動頁面
+3. 新增「格式精靈」至 copy/move 目的地選單中
+
+
+Version 1.10.17 release Note：
+1. Fix bug：資源回收桶 hooks 發動時沒有寫入 DB
+2. Fix bug：在 IOS 呼叫新增 Group Share 時，發生錯誤
+3. Own Cloud - OC_Files 重新架構
+4. 我的文件執行copy / move 功能 目地的支援可看到同步資料夾
+
+
+Version 1.10.16 release Note：
+1. 新增前端通用function [humanFileSize]
+2. Fix bug： 在P系統，修改密碼時會發生「舊密碼錯誤」
+3. 修改核心程式 [OC_Hooks]，讓註冊hooks的程式可指定本身的執行順序
+4. 修改 Recycle APP 在 File system 刪除檔案之前，為最後執行的 hooks 程式
+
+
+Version 1.10.15 release Note：
+1. Fix bug：Group Share 被分享者在 Web 被分享頁面，無法使用 copy 功能
+2. Fix bug：解決 IE v.11 下載中文會有亂碼的問題
+
+
+Version 1.10.14 release Note：
+1. Files Copy/Move APP：改善 Web 端執行時會卡住畫面的問題
+2. Fix bug：修改密碼時，一直顯示「舊密碼錯誤」
+
+
+Version 1.10.13 release Note：
+1. Files Copy APP： Web 檔案複製功能 v2.0
+2. Files Move APP： Web 檔案移動功能 v2.0
+
+
+Version 1.10.12 release Note：
+1. Group Share APP - web 群組分享管理排序
+2. 若server同步資料夾未設定則停止同步
+3. Fix bug： Media Streaming 關閉時，GroupShare 會出現 js error
+4. Fix bug：分享資料夾名稱帶有 # 時，修改資料夾名稱會產生錯誤
+
+
+Version 1.10.11 release Note：
+1. Recycle APP：web資源回收桶排序
+2. Public Share APP：web連結分享管理排序
+3. Fix bug：Group Share APP - User 移動分享目錄上層的目錄時，DB不會同步更新
+
+
+Version 1.10.10 release Note：
+1. Artdisk Render APP：提示訊息更新(移除「，系統將自動運算」字串)
+2. 調整 Web 上方功能按鈕位置
+3. Group Share APP:
+   - APP ID從「files_groupsharing」更名為「files_groupshare」
+   - Web群組分享，可點選「系統群組/群組」進入名單，再單獨選取底下的聯絡人
+   - Web 群組分享管理頁面，當路徑/被分享者過長時，簡短顯示其名稱
+
+
+Version 1.10.9 release Note：
+1. 更新核心 function [addFilterFilePath]
+2. 更新Seb Dav外掛function [addRejectMovePath]
+3. 新增帳號時 user id 強制轉小寫
+4. 新增 Web 核心程式「FilesNotificaion」，負責設定檔案列表頁面要顯示的提示訊息
+5. Artdisk Render APP：支援台藝大算圖農場
+
+
+Version 1.10.8 release Note：
+1. Fix bug：[要求Streaming停止轉檔] not work
+2. Recycle APP：更新資源回收桶emit程式
+3. Joomla升級至2.5.17
+4. Contact APP： Web 新增「可選取系統群組裡的聯絡人，加入自己的聯絡清單中」
+
+
+Version 1.10.7 release Note：
+1. Media Streaming APP：轉檔時，剩餘空間下限改為影片大小的1.2倍
+2. Fix bug：影片在Streaming中，後來User又選擇格式精靈轉檔為phone後，DB的轉檔狀態會一直為converting
+3. Fix bug：Device中移動影片後，串流資料會被刪除
+4. Fix bug：Streaming呈現英文錯誤訊息
+
+
+Version 1.10.6 release Note：
+1. User Info APP:web 用戶基本資料顯示下方增加推廣字眼「通過Email驗證可獲得一次性500MB容量」
+2. Fix bug:刪除帳號時，該帳號的資料夾未被remark
+3. 移除block後無效的刪除user指令
+4. 當沒有User自訂的聯絡人暱稱時，顯示該聯絡人的暱稱
+5. 新增SAPI:contact_request.php
+6. Fix bug:Madia Streaming APP 檔案rename後，DB資料沒同步更新
+
+
+Version 1.10.5 release Note：
+1. Fix bug:多選操作「複製/移動」，目的選單超過畫面時無法下拉
+2. Media Streaming APP:設定頁中的「串流播放列表」，資料中的時間轉為local time
+3. Web操作「複製/移動」，目的選單增加陰影
+4. Web端上面控制項「新增/雲下載」UI增加外框陰影
+
+
+Version 1.10.4 release Note：
+1. User Info APP:修改回覆訊息
+2. 修正Email更改API回應資訊
+3. Media Streaming APP：修改Tomcat回傳值的判斷邏輯
+4. Media Streaming APP：補強串流播放失敗時的處理流程
+5. 新增Sebre DAV hook程式
+6. Fix bug: create user 時沒有預設語系
+
+
+Version 1.10.3 release Note：
+1. Fix bug:HLS失敗時，不會回傳訊息給Device
+2. Fix bug：格式精靈轉檔完成後，link會無法產生
+3. Fix bug:要求HLS轉檔時，轉檔忙碌中時，會誤判
+4. Joomla Email API 修正
+5. Media Streaming APP：管理頁面新增「HLS轉檔列表」，顯示正在HLS轉檔中的資料
+6. User Info APP：整合Joomla/OwnCloud使用者修改基本資料頁面
+
+
+Version 1.10.2 release Note： 
+1. Fix bug:新增user時，未加入default quota
+2. Fix bug:格式精靈在user未超過轉檔次數限制下使用轉檔時，會顯示「轉檔超過限制次數」
+3. 更新通用程式curlToServer
+4. Fix bug：格式精靈轉檔失敗(影片時間差太多)時，未更新轉檔server狀態
+5. Fix bug：格式精靈轉檔server在轉檔中時，顯示的訊息不正確
+6. Media Streaming APP v2.2：串流播放流程新增暫存區，以減少server loading
+
+
+Version 1.10.1 release Note： 
+1. 加入暱稱修改程式 (for P1 型態)
+2. Fix bug:更新格式精靈DB架構
+3. 新增 AccountEmailUpdate() 並將 AccountNickNameUpdate() 從 nickname.xmlrpc.php 移至 cloud.xmlrpc.php
+4. Fix bug:格式精靈計算容量錯誤
+5. 格式精靈管理頁面 start time時間格式轉為本地時間
+6. 格式精靈:轉檔失敗時，寄給user的email內容中，新增「失敗原因」
+7. Fix bug: 格式精靈執行時，user email未存入DB
+8. Fix bug:格式精靈在確認轉檔時，如回傳失敗，未刪除output file
+9. HLS播放時，如轉檔server忙碌中，回傳訊息「建議使用格式精靈轉檔」
+10.Fix bug:HLS轉檔播放時，免費用戶無轉檔限制
+11.OwnCloud核心程式:server type架構修改，並將U-Sync的server type設定為p2
+12.新增通用function以取得server type相關設定值
+
+
+Version 1.10.0 release Note：
+1. 新增核心程式 OC_UserQuota
+2. 聯絡人-系統群組 function調整
+3. Skytek APP/SAPI 支援
+4. 格式精靈v2.1版
+   - 更新為排程轉檔
+   - 增加轉檔效能及穩定性
+
+Version 1.10.0 release Note：
+1. 新增核心程式 OC_UserQuota
+2. 聯絡人-系統群組 function調整
+3. Skytek APP/SAPI 支援
+4. 格式精靈v2.1版
+   - 更新為排程轉檔
+   - 增加轉檔效能及穩定性
+
+
+Version 1.9.25 release Note：
+1. Fix bug:格式精靈無法通知(Jmail無法寄信)的問題
+2. Media Convert:更新轉檔通知內容
+
+
+Version 1.9.24 release Note：
+1. 新增核心js [文字欄位輸入限制]
+2. 限制OwnCloud登入頁, user只能輸入英數字及[_@.-]符號
+3. 同步程式加入用戶IP停止程式，防止帳密錯誤或其他問題發生造成無限循環
+4. Upgrade JwPlayer to v6.6
+5. U-Sync User Info APP調整: UI調整
+6. File Public Share APP:當分享的檔案被刪除時，點選已被分享的連結時顯示檔案已不存在
+
+
+Version 1.9.23 release Note：
+1. Fix bug: 單獨移除聯絡人時，群組底下的聯絡人未移除
+2. 新增核心通用 email function
+3. Media Streaming APP v2.1:
+   - 新增設定「supporter email」,發生錯誤時會寄發email通知管理者
+   - Streaming 後端流程調整
+   - DB 結構調整
+
+
+Version 1.9.22 release Note：
+1. Public Share API: 調整回傳值
+2. Fix bug: files size計算錯誤
+
+
+Version 1.9.21 release Note：
+1. U-Channel: 頁面確認使用者是否登入
+2. User Info APP: Web右上角User Email後加上三角提示符號
+
+
+Version 1.9.20 release Note：
+1. Fix Thumbnail Exception
+2. Fix bug: Delete User exception
+3. Public Share:web端使用public share,點選「透過郵件分享」,email內容中的檔名改為完整檔名(含副檔名)
+4. 更新 DB Table oc_contact_group 欄位
+
+
+Version 1.9.19 release Note：
+1. Public Share 註解,整理
+2. 清除多餘的APP [bookmarks]
+3. 將JW Player列為核心程式
+4. Fix bug : 設定catch error exception
+5. Fix bug: Thumbnail Sync Exception
+
+
+Version 1.9.18 release Note：
+1. mcused API: 回傳訊息中，新增「是否為付費用戶」項目
+2. 新增 user info API: 可取得user email,nickname...相關資訊
+3. 新增user email,nickname,email 資訊至前端頁面
+4. 設定catch error exception
+5. Thumbnail 程式優化/整理
+6. Public Share:web端使用public share,點選「透過郵件分享」,email內容調整
+
+
+Version 1.9.17 release Note： 
+1. 同步程式加入強制刪除資料夾 rrmdir(), 避免 server 端隱藏檔無法刪除問題
+2. Media Streaming 新增設定：設定輸出檔和來源檔的時間，大於幾秒的時候判斷為轉檔失敗
+
+
+Version 1.9.16 release Note： 
+1. U-Sync User Info APP 密碼不顯示
+
+
+Version 1.9.15 release Note： 
+1. 如果為p1系統，或是LDAP功能有開啟，則不顯示「設定→帳號」功能
+2. Fix bug: Media Convert 會將DB中狀態還為「轉檔中」的資料移到log
+
+
+Version 1.9.14 release Note： 
+1. 新增 U-Sync User Info APP
+2. Fix ajax 程式錯誤
+3. 移除多餘的APP [admin_dependencies_chk]
+4. 帳號管理 程式改寫:可選擇要秀的user數量(測試版)
+
+
+Version 1.9.13 release Note： 
+1. Web 顯示 User Email
+2. 新增 U-頻道 APP
+
+
+Version 1.9.12 release Note： 
+1. 將左邊選單及 file action icons 圖檔改為png
+2. 移除多餘的APP [internal bookmarks] [web finger]
+
+
+Version 1.9.11 release Note： 
+1. Public Share APP: 新增管理設定
+
+
+Version 1.9.10 release Note： 
+1. Fix bug:在GroupShared底下,取得local full path(原始完整路徑)錯誤
+
+
+Version 1.9.9 release Note： 
+1. folder.png 位置微調
+2. Fix bug: 縮圖無法正確顯示(原因為取得 local user id 時錯誤)
+
+
+Version 1.9.8 release Note： 
+1. 移除多餘的APP [admin_export]
+2. 新增OC::$USER_DATA_FOLDER，取得使用者放置檔案的FOLDER路徑
+3. 將 Public Board 改寫為APP
+4. Filesystem 的 Hooks 架構調整
+5. 核心程式 OC_APP 改寫
+6. 新增$RUMTIM_NOSSL判斷是否強制作用SSL
+7. Media Streaming APP 顯示訊息延長為30秒
+8. 移除版面上的厚陰影效果
+9. Fix bug: Device在更名檔案時, Streaming 資料也會被刪除
+10.Fix bug: API [updatefiletime.php]抓不到檔案路路徑
+
+
+Version 1.9.7 release Note： 
+1. 移除多餘的APP [calendar] [external] [mediaconverter]
+2. 線上同步用戶列表SAPI
+3. Media Streaming 在 Browser 顯示的訊息延長為8秒
+4. 新增Sebre Dav 中 copy/move 的 hooks,及其它相關function改寫
+
+
+Version 1.9.6 release Note： 
+1. Fix bug: public share 點選分享連結無法下載檔案
+
+
+Version 1.9.5 release Note： 
+1. Public Share 新增連結後，點選email按鈕時，email內容修飾
+2. 新增 Audio Streaming API
+3. 同步程式加入用戶IP、最後同步時間、更新區間等三項資訊於DB
+
+
+Version 1.9.4 release Note： 
+1. 新增核心類別 OC_LocalSystem
+2. Fix bug: 新增public share時, IE無法顯示分享連結
+3. Fix bug: public share 分享天數比設定值多1天
+
+
+Version 1.9.3 release Note： 
+1. Fix bug: 新增public share時,點選「透過郵件分享」無反應
+2. Audio Streaming APP
+3. Streaming API 調整
+4. API檔優化,減少檔案讀取
+
+
+Version 1.9.2 release Note： 
+1. Fix bug: streaming config 無法寫入
+2. Fix exception: 非web連線時，讀取js/css檔會出現檔案不存在的例外訊息
+3. Public Share 「新增分享連結」智慧判斷
+   a. 沒有連結資料:直接新增,並回傳連結
+   b. 有資料但已過期：自動更新到期日,並回傳連結
+   c. 有資料也沒遇期：直接回傳連結
+4. Fix bug: Device 無法使用(舊版)格式精靈
+5. s2 校務行政 API 加入 pw_type=類型, 類型若為text，則密碼用明顯傳送 若類型為md5，則密碼要用md5加密傳送
+
+
+Version 1.9.1 release Note： 
+1. Fix public share exception
+2. Fix bug: Media Streaming超過檔案限制大小訊息錯誤
+3. 更新串流播放判斷邏輯,有串流資料或影片觀看者/擁有者為付會費員則不受檔案大小限制
+4. Fix bug: 在FireFox copy檔案時, 資料夾路徑選單位置會跑掉
+5. Public Sare API 調整
+6. Streaming Config 新增參數[串流server路徑] for 1.6
+7. Fix bug: Streaming 1.6無法播放
+
+
+Version 1.9.0 release Note： 
+1. Media Streaming APP 2.0版
+2. 修正 iOS 續費
+3. s2 登入bug修正
+4. Fix bug: Device無法取得public share 列表
+
+
+Version 1.8.20 release Note：
+1. 口袋碟付費用戶判斷SQL修正
+2. 隱藏PC及MAC隱藏檔
+3. Contact APP:移除聯絡人ID前後空白,避免group share時產生錯誤
+4. Fix bug: opy/move時,如果目標路徑過長,會無法顯示目的地選單(將get改為post)
+5. 移除APP: media, gallery, contacts
+6. upgrade JQuery to 1.10.2
+
+
+Version 1.8.19 release Note：
+1. Fix bug : 沒有分享連結資料時,點選「連結分享管理」不會出現列表
+2. Fix bug: 系統同步資料夾「U-Dirve」會出現在File list的問題
+
+
+Version 1.8.18 release Note：
+1. Fix bug [ Device 無法讀取 OC_Contact_Group 而產生的 exception ]
+2. 同步程式 dataDir 改成從 database 讀取
+3. Public Share 架構改版 - 新增「付費會員功能區別」及「DB資料改為UTC時區」
+
+
+Version 1.8.17 release Note：
+1. 整合 app config 至 DB
+2. 新增 核心程式 app_config
+3. 移除files_sharing(OwnCloud 原生版本 group share)
+4. Fix bug 「被分享者上傳檔案至分享資料夾時，也會通知自己」
+
+
+Version 1.8.16 release Note：
+1. 新增「被分享者更新內容至分享資料夾時，通知其他被分享者」功能
+
+
+Version 1.8.15 release Note：
+1. Fix bug 使用者變更分享資料夾內容時，不會發佈通知
+2. Fix bug utf-8 轉 big5 排序問題(有些utf-8字元，big5沒有)
+
+
+Version 1.8.14 release Note：
+1. 新增「被分享者上傳檔案至分享資料夾時，通知分享者」功能
+2. 整合呼叫 app 的 api 驗証
+3. 修改 CONFIG_CUSTOM 新增 paidSystemEnable 為boolean值
+
+
+Version 1.8.13 release Note：
+1. 排除外部執行php時 $_SERVER['SERVER_NAME'],$_SERVER['REQUEST_URI'] 的 exception
+2. Fix mimetype icon exception
+3. File list時，DB縮圖資料與實體縮圖檔案比對
+4. config CONFIG_CUSTOM 新增 paidSystemEnable, 用來判別付費系統是否開啟
+5. Group Share Manager list sorting
+6. 在File List中，Group Share /Public Share 功能標題修正
+
+
+Version 1.8.12 release Note：
+1. 聯絡人管理 及 群組分享管理 版型調整
+2. 新增核心程式app.js
+
+
+Version 1.8.11 release Note：
+1. Fix bug：使用手機註冊並登入時，無法產生「/MediaWizard」和「/Recycle」資料夾
+2. 用量統計 SAPI 更新
+3. 加入付費用戶查詢 Function & API
+4. 右上功能鈕新增文字
+5. Notification 避免重覆通知
+
+
+Version 1.8.10 release Note：
+1. 在File List中按「下載」按鈕後，按鈕呈現半透明並失效；防止連續下載
+2. Public Share 開啟被分享連結時強制下載
+
+
+Version 1.8.9 release Note：
+1. Fix File list / Contact 繁中排序 bug
+2. 每日流量查詢API，內容為 "時間"   "in 流量 Byte/s"   "out 流量 Bytes"
+3. Fix 在IE中File List無法多選操作的問題
+
+
+Version 1.8.8 release Note：
+1. Fix bug 無法顯示群組底下的聯絡人
+2. 同步程式 bug 修正
+
+
+Version 1.8.7 release Note：
+1. File List 繁體中文排序
+2. Contact List 繁體中文排序
+
+
+Version 1.8.6 release Note：
+1. Fix bug 無法更新聯絡人暱稱
+2. Fix Contact Group 中文排序問題
+
+
+Version 1.8.5 release Note：
+1. Contact Group/Contact System Group List 可以繁體中文排序
+
+
+Version 1.8.4 release Note：
+1. 更新File List排序程式
+2. Contact Group/Contact System Group List 改為以name排序
+
+
+Version 1.8.3 release Note： 
+1. Fix bug 關閉系統群組時，Group Share在操作分享名單時產生的錯誤
+
+
+Version 1.8.2 release Note： 
+1. 調整S2設定檔及登入驗證方式
+2. 依照設定檔判斷是否開啟修改OwnCloud個人資料
+
+
+Version 1.8.1 release Note： 
+1. Fix Device 無法操作 contact group 的 bug
+
+
+Version 1.8.0 release Note： 
+1.  bug fix 單一檔案與單一資料夾拖拉至U-Driver外再拖回，已不會被刪除
+2.  修正： 同步資料夾含檔案拖拉進出 U-drive 資料夾 bug
+3.  SAPI 加入多 CPU 監測使用率
+4.  Recycle APP 刪除檔案的hook程式調整
+5.  新增「web端可讀取config值」的功能(組態設定CONFIG除外)
+6.  U-Drive APP 同步資料夾根目錄路徑本身不寫入DB
+7.  Fix mime type exception
+8.  Public Share APP 開啟連結分享下載頁時，顯示檔案名稱
+9.  同步程式加入 已刪除檔案 資料庫清理程式
+10. PC同步程式 加入 debug mode 開關
+11. 刪除user的時候，更名該user的資料夾(/var/www/html/data/UserId/)
+    更名規則為 [#UserId#Email#刪除時間](時間為格林威治)
+12. 加入s2(天方校務行政系統)授權
+13. ServerType s2 Login 不使用 OwnCloud 驗證，改採一律由 SkyTek 驗證 (系統內建帳號除外)，避免舊密碼 cache 住的問題
+14. 新增系統群組
+15. 新增Group Share中系統群組的相關操作
+
+
+Version 1.7.17 release Note：
+1. Fix device無法登入的問題
+
+
+Version 1.7.16 release Note：
+1. 依據主機型態調整設定(s1,p1)架構改寫
+2. U-Drive設定檔調整
+3. 回復filesize指令(移除du指令)
+
+
+Version 1.7.15 release Note：
+1. 使用linux的du指令取代php的filesize以增加計算效能
+2. Media Converter APP 新增轉檔前剩於空間判斷
+3. 修復notification的ajax error
+4. Public Share 新增跳轉頁面 
+
+
+Version 1.7.14 release Note：
+1. mediacoverter 轉檔完成通知信 組態檔設定更新
+2. 帳密檢查 sapi for 管理程式使用
+3. 修正mimetype icon 無法正確執行的bug
+4. 修復file list頁面的html錯誤
+5. 左邊選單新增「活動」分類
+6. 新增「立刻升級」連結按鈕(連結至U-Sync升級頁面)
+7. 加入 User Daily Quota 報表 API
+
+
+Version 1.7.13 release Note：
+1. 整合 同步程式 與 lib/base.php 不相容問題
+
+
+Version 1.7.12 release Note：
+1. Fix bug：上一版patch config更新後 mcdav 及 sapi 相關問題
+2. 解決部份[.mp4]檔案無法辨識mime type的問題
+
+
+Version 1.7.11 release Note：
+1. Fix bug：移除分享時不會發佈通知
+2. 更新config檔操作程式，增加config擴充性
+
+
+Version 1.7.10 release Note：
+1. 同步分享者與被分享者的資料夾名稱
+2. 分享者更改分享資料夾名稱時，發佈通知
+3. 分享者停止分享資料夾時，發佈通知給被分享者
+4. Notification APP 程式改寫
+
+
+Version 1.7.9 release Note：
+1. 新增聯絡人id時，去除前後空白
+2. Fix bug：wmv檔無法使用格式精靈
+3. Fix bug：從Device上傳(同步)影片後，會顯示上傳失敗(被ffmpeg產生縮圖程式lock住)
+4. 從Device上傳的暫存檔(.usync)，不寫入DB
+
+
+Version 1.7.8 release Note：
+1. 預設暱稱為user id 時，自動更新至DB
+2. 將短連結網址設為https
+3. 左邊選單「檔案總管」更名為「我的文件」
+4. 通知中心改為圖形按鈕
+
+
+Version 1.7.7 release Note：
+1. Media Streaming APP 新增提示訊息
+2. Fix bug：移除被分享者可執行刪除的指令
+3. 上傳檔案時，如果存在相同檔名的檔案，則先將原本的檔案移至 Recycled
+
+
+Version 1.7.6 release Note：
+1. File rename 前端 codes 調整
+2. Fix Device 分享連結失效的 bug
+3. Media Streaming APP 串流播放
+4. Image Viewer APP 圖片播放前端程式改寫，避免與影片播放程式衝突
+5. 修正 Client IP 是否在允許接受的網段範圍內
+
+
+Version 1.7.5 release Note：
+1. 上傳圖檔後，自動產生縮圖(Device不需呼叫API比對)
+2. 將 Recycle API Hook 到 File System(Device不需呼叫API做資源回收的動作，只需執行刪除動作)
+3. Web File List JS 調整
+4. 修正 Media gateway SAPI：在 Group Shared 底下，透過Media Server 取得檔案
+
+
+Version 1.7.4 release Note：
+1. OwnCloud Log 程式改寫
+2. Fix bug：在 Device 中，被分享者資夾底下無法產生縮圖
+3. Notification APP 新增Web通知連結，點選通知內容可連到指定頁面
+4. Group Share APP：檔案移動/複製到分享資料夾時，發佈通知訊息
+
+
+Version 1.7.3 release Note：
+1. 「隱藏Web Dav 資料夾/路徑」程式改寫
+2. Media gateway SAPI：在 Group Shared 底下，透過Media Server 取得檔案
+
+
+Version 1.7.2 release Note：
+1. Fix Device 中如果「沒 下載/複製 權限，則無法看到縮圖」的問題
+2. 在Web Dav中隱藏 /Recycled 資料夾
+3. 在Web Dav中鎖定 /GroupShared,/MediaWizard,/U-Drive 為無法更名/移動
+
+
+Version 1.7.1 release Note：
+1. Notification 版型/內容調整
+2. Group Share - 被分享者在 Device/Web Dav 操作檔案時， 受權限控管
+3. File System 及相關程式改寫
+4. U-Drive APP(For PC client)
+
+
+Version 1.7.0 release Note：
+1. 修正若帳號中有大寫字元無法在Login後直接導入owncloud的問題
+2. Fix bug：被分享者在/Groupshared底下時，會出現exception
+3. Notification APP：推播系統
+   -Group Share 新增分享名單時，產生通知
+   -Group Share 分享者在分享資料夾底下新增檔案時，產生通知
+   -支援多國語系
+   -API支援
+
+
+Version 1.6.14 release Note：
+1. Fix bug：device上傳檔案後無法將tmp檔(.usync)重新命名
+
+
+Version 1.6.13 release Note：
+1. Fix 資料夾名稱有+號時，無法操作 Group Share 的問題
+
+
+Version 1.6.12 release Note：
+1. 在 device 中刪除被分享資料夾時，server端不刪除DB資料(改為update oc_groupshare_files.accept = 0)
+2. 在 device 中執行「移動/更名」指令時，server端不執行指令
+
+
+Version 1.6.11 release Note：
+1. 檔案上傳時移除檔名前後空白
+2. Group Share操作/bug 修正
+   -新增分享時，預設勾選「允許下載/刪除」
+   -被分享者可刪除被分享的資料夾(選擇不被分享)，但不影響分享者端的操作
+
+
+Version 1.6.10 release Note：
+1. Joomla 端變更密碼時將 owncloud 密碼打亂，再讓 user 由 webdav 登入時讓授權程式更正之
+2. Group Share 權限架構調整
+3. 移除多餘的目錄斜線
+
+
+Version 1.6.9 release Note：
+1. Owncloud錯誤頁面自動導向首頁
+2. Public Share 分享連結 API 新增：取得指定檔案的短連結
+3. Fix bug：在 Device 中，被分享者在 Group Share 底下無法取得縮圖
+
+
+Version 1.6.8 release Note：
+1. 將 Recycle 的 UTC 時間寫入oc_fs 給 sync-driver使用
+2. Recycle DB 的回收時間改為 UTC 格式
+3. 改寫sql update方式
+4. 修正 Public Share API 裡的 tag 名稱
+
+
+Version 1.6.7 release Note：
+1. Fix Public Share「使用者可以 key in 有效期限」的 bug
+2. Fix File Multi Actions 多選操作選單在GroupShare底下的顯示錯誤
+
+
+Version 1.6.6 release Note：
+1. 左邊分享管理選單名稱調整
+2. File Action 相關程式調整
+3. File Multi Actions 多選操作選單不因捲軸移動
+4. 提供Group Share API 「取得分享者的分享資料夾相關訊息(分享者/權限/分享名單)」
+5. Public Share 分享連結 API
+
+
+Version 1.6.5 release Note：
+1. Quotabar 下方容量文字過長時不換行
+2. Public Share 分享連結 APP
+3. 將 DB 中 oc_sharing 的資料(舊版 Public Link)搬到 oc_publicshare 中(新版 Public Link)
+
+
+Version 1.6.4 release Note：
+1. 新增左邊選單分類
+2. Quotabar 新增使用量顯示
+3. 隱藏「升級容量」按鈕
+4. 密碼重設 API for 行動裝置，限 P1 環境使用
+
+
+Version 1.6.3 release Note：
+1. 上傳檔案後顯示對應的縮圖
+2. WebDav隱藏特定資料夾(.usync/.thumbs)
+
+
+Version 1.6.2 release Note：
+1. Fix 「當在不是 File List 頁面時，會出現 js error」
+2. Fix 影片無法縮圖的 bug
+
+
+Version 1.6.1 release Note：
+1. Fix File List 的 js error
+2. 檔案上傳產生縮圖
+
+
+Version 1.6.0 release Note：
+1. Fix Fire Fox 點選上傳按鈕沒有反應的 bug
+2. Joonla 升級至 2.5.11
+3. 修改 Setup file system 程式
+4. 將 Group Share hook到 setupFS中
+5. Thumbnail 改版：
+   -從 Files 抽離，成為app
+   -程式架構改寫(支援GroupShare及相關的Hooks)
+   -相關 Core 程式調整
+   -以 MySQL 取代 SQLite 資料庫，增加讀取效能
+
+
+Version 1.5.13 release Note：
+1. Recycle API 程式調整
+2. Filesystem程式調整
+3. 新增特殊符號過瀘
+4. header 顏色調整
+5. Fix File Move/Copy 點選按鈕後會重複執行的 bug
+
+
+Version 1.5.12 release Note：
+1. Joomla 升級至 2.5.10
+2. Group Share 程式調整
+3. Fix 寫入 Exception Log 的 bug
+4. File Move/Copy UI 調整：新增確認按鈕，點選後才會執行 移動/複製(為了支援Pad操作)
+5. Group Share 在分享操作時新增聯絡人，如果聯絡人已在聯絡名單中，則直接加到分享清單
+
+
+Version 1.5.11 release Note：
+1. Contact 程式架構調整
+2. GroupShare 程式架構調整(配合新增聯絡人功能)
+3. GroupShare UI 調整
+
+
+Version 1.5.10 release Note：
+1. 點選File Move/Copy 時，在系統讀取到子目錄選單後，才顯示根目錄「/」選單
+2. 將Session及程式執行時間延長為12小時
+3. Fix 「開增資料夾後，無法馬上GroupShare」
+4. 新增寫入Exception log的function
+5. Contact：
+   -不需要填寫「暱稱」欄位(預設為Id)
+   -相關API調整
+   -PC版：修改群組名稱/暱稱時，按下Enter鍵即可更新
+   -移除「點選輸入欄位時內文會自動清空」功能
+   -新增聯絡人時，欄位填寫規則錯誤會出現較明確的提示訊息
+6. Group Share 改版：
+   -分享頁面由「開新視窗」改為「內部彈跳視窗」
+   -分享頁面加入「新增聯絡人」功能
+
+
+Version 1.5.9 release Note：
+1. 從Device傳送過來的 User Id 轉為小寫
+2. fix p1 模式無法取得 usere mail 問題
+3. 修復「在IOS系統中用Fafari瀏覽，編輯分享名單成員時，無法選取成員」的bug
+4. 修復「Group Share API 無法正確顯示暱稱」的 bug
+
+
+Version 1.5.8 release Note：
+1. 修復「新增聯絡人群組底下的名單時，GroupShare的中新增的被分享者權限會強制為0」的bug
+
+
+Version 1.5.7 release Note：
+1. 修復「從Device更新聯絡人群組底下的名單時，GroupShare的被分享者會被清空」的bug
+
+
+Version 1.5.6 release Note：
+1. 新增按鈕圖片png檔
+2. 左邊選單按鈕圖片更新
+3. jQuery UI顯示樣式調整
+4. OwnCloud log調整：寫入log時顯示一般時間格式
+5. Contact API 調整：新增聯絡人，contactId查無使用者時，回傳null改為回傳false
+
+
+Version 1.5.5 release Note：
+1. jQuery檔案調整
+2. Quotabar改寫為ajax
+3. 部份容量計算程式優化
+
+
+Version 1.5.4 release Note：
+1. 修復Quotabar顯示不正常的bug(File Size 計算程式修改)
+
+
+Version 1.5.3 release Note：
+1. File List 前端程式調整/優化
+2. 不讀取Folder Size以減少loading
+3. Group Share前端程式優化
+4. Group Share暱稱顯示bug修正，及相關程式微調整
+5. 修正修改 user quota 進位錯誤
+6. 修正舊 CM4ALL user Webdav Login 後未正確顯示檔案系統 bug
+
+
+Version 1.5.2 release Note：
+1. 移除jQuery facebox外掛
+2. 檔案上傳程式架構調整
+3. 左邊menu資源回收桶移到最下方
+4. 解決「第一次登入時頁面會自動重新整理」的問題(Time Zone)
+5. 修復產生Recycle資料夾時的 exception
+
+
+Version 1.5.1 release Note：
+1. 解決無法複製「含有符號」的檔名問題
+2. 修復「資源回收桶無法單筆操作回復/刪除」的問題
+3. 修改左邊選單「同步資料夾」「資源回收桶」圖示
+
+
+Version 1.5.0 release Note：
+1. 將jQuery外掛「fancybox」整合到核心程式
+2. Image Viewer看圖程式改版
+
+
+Version 1.4.3 release Note：
+1. jQuery升級到1.9.0，及相關程式修改
+2. 將File Copy改為背景執行
+
+
+Version 1.4.2 release Note：
+1. Facebox外掛調整(JS上傳進度)
+2. 資源回收桶APP：新增多選操作
+3. 檔案複選程式bug修正
+4. 複製檔案：複製提示訊息修正，完成後顯示「複製完成」訊息
+
+
+Version 1.4.1 release Note：
+1. 資源回收桶APP：回復檔案時，檔名加上時間戳記；如遇到同檔名，則加入尾綴「_copy」
+2. 檔案複選程式架構改寫
+3. 新增判斷「檔案為系統檔(不可寫入)時，無法進行刪除/回收/移動的動作」
+
+Version 1.4.0 release Note：
+1. 資源回收桶APP
+2. 刪除縮圖程式改寫
+3. 「分享收件箱」和「分享管理」沒有內容的時候，顯示註解文字
+
+
+Version 1.3.4 release Note：
+1. 格式精靈的輸出資料夾如果沒檔案：顯示文字「透過格式精靈轉完的影片檔案都會放在此處」
+2. 防止網頁快取(cache)
+3. 解決Groupshare API無法正確回覆的問題
+4. 解決Thumbnail API無法正確顯示rmvb縮圖問題
+5. 同步資料夾功能：需用戶有啟動pc agnet 程式（產生U-Drive) 才出現
+6. 被分享用戶將分享目錄刪除（不想再看到此分享目錄）, 分享者分享DB 需清除此人分享資料
+7. 解決「URL Link 到期後還是可download , DB 未把此link 刪除」
+
+
+Version 1.3.3 release Note：
+1. 修正API錯誤
+
+Version 1.3.2 release Note：
+1. 修正logo顯示方式
+2. Device call API時，確認 userId 及檔案是否存在
+
+Version 1.3.1 release Note：
+1. 解決「檔案總管中的檔案名稱有單引號時，file move/copy無法正確顯示下拉選單」的問題
+2. 移除在檔案總管中的 js 錯誤
+3. 解決「當移動有單引號的檔案時，hook 的 GroupShare 程式在寫入DB時會出現錯誤」
+4. 解決「檔案有單引號時，無法正確 copy」的問題
+
+Version 1.3.0 release Note：
+1. 加入 轉檔精靈 Media Converter API
+2. 加入 轉檔精靈 TV 格式
+3. 新增文字檔功能：新增檔案時附加副檔名「.txt」
+4. 將同步資料夾及格式精靈放到左邊選單
+5. 更新Jquery UI 到1.10.1
+6. File Copy 架構及UI改版
+7. File Actions 架構調整及相關 bug 修複
+
+Version 1.2.3 release Note：
+1. 左邊選單順序調整：分享收件箱 , 分享管理, 口袋碟聯絡人
+2. 新增分享收件箱圖案
+3. 系統內部 OC_File 新增「要隱藏的檔案」變數，讀取檔案列表時排除[/GroupShared]資料夾
+
+Version 1.2.2 release Note：
+1. 聯絡人管理頁面版型調整
+2. 多國語系支援加強
+
+Version 1.2.1 release Note：
+1. 更新多國語系支援加強
+2. 加入 上 Patch 時資料庫自動更新的機制
+3. 修改 Contact DB 結構
+
+Version 1.2.0 release Note：
+1. 聯絡人管理-可自訂聯絡人暱稱
+2. 新增左邊選單，連結到GroupShared資料夾，並將GroupShared資料夾從File List中隱藏
+
+Version 1.1.0 release Note：
+1. 加入 Contact & Group Share for Device API
+2. 加入 多語系架構
+3. 加入 webdav 上傳檔案 Quota 不足時回應 507 => 'Insufficient Storage'
+4. 聯絡人Apps-修正「單引號無法寫入DB」的問題
+5. Fix GroupShare 時，如果 user 名稱為大寫，無法分享的 bug
+6. 聯絡人管理-聯絡人列表暱稱後面新增 email
+7. Web 端 Quota 的顯示排除掉 softlink 部分
+
+Version 1.0.4 release Note：
+1. config 重新檔整合
+2. 更新 config/config.php 檔 sample
+3. layout.user.php, layout.guest.php 切割-獨立出 header 及 footer, 並附上 Sample
+4. Fix 被分享者開啟 GroupShared 底下的檔案，檔名包含「'」單引號時，會無法顯示檔案操作選單
+
+Version 1.0.3 release Note：
+1. config.php調整：新增$CONFIG_CUSTOM變數，儲存非cloud原生的設定值，可透過lib/configcustom.php呼叫,並修改相關檔案
+2. 更新 Owncloud 設定檔範例
+3. 修復bug：資料夾「GroupShared」及其它系統用資料夾不可被分享
+4. 新增core/templates/js.php：轉換php的系統值給js使用,並修改相關檔案
+5. 修改public share時，信件內容的「有效天數」
+6. Fix短網址URL錯誤，由短網址伺服器自動抓正確值。
+7. 讓手機一註冊馬上產生 GroupShared 資料夾
+8. GroupShare 分享檔名單引號問題修改處理方式，避免不同Server環境差異產生問題。
+
+Version 1.0.2 release Note：
+1. 分享資料夾設定畫面, 左邊聯絡人 比照新增聯絡人方式 筆數很多時 採用固定視窗下滑顯示
+2. 修復「資料夾名稱有單引號時，群組分享會產生錯誤」
+
+Version 1.0.1 release Note：
+1. cloud 個人設定修正 & 加入版權宣告
+2. public link 改為短網址
+3. 網頁左邊的 聯絡人 改成 [網站名稱]聯絡人
+4. 避免 User 在 Cloud 產生大寫根目錄，變成兩個 Folder
+
+Version 1.0.0 release Note：
+1. 公有、私有雲合併版

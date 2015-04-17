@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user">
+	<name>plg_user_ucloudregistration</name>
+	<author>Charles Jiang</author>
+	<creationDate>July 2012</creationDate>
+	<copyright>(C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>charles@u-sync.com</authorEmail>
+	<authorUrl>www.u-sync.com</authorUrl>
+	<version>2.5.1</version>
+	<description>PLG_USER_UCLOUDREGISTRATION_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="ucloudregistration">ucloudregistration.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_user_ucloudregistration.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_user_ucloudregistration.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="ucloud_url" type="ucloud_url" default="http://localhost" 
+					description="PLG_UCLOUDREGISTRATION_FIELD_UCLOUD_URL_DESC"
+					extension="com_user"
+					label="PLG_UCLOUDREGISTRATION_FIELD_UCLOUD_URL_LABEL"
+				/>
+
+				<field name="quota" type="quota" default="6G" 
+					description="PLG_UCLOUDREGISTRATION_FIELD_QUOTA_DESC"
+					extension="com_user"
+					label="PLG_UCLOUDREGISTRATION_FIELD_QUOTA_LABEL"
+				/>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

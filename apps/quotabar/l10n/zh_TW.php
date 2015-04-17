@@ -1,0 +1,1 @@
+<?php $TRANSLATIONS = array('Calculate Quota' => '空間使用量', );

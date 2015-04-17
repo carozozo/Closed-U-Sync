@@ -1,0 +1,10 @@
+<?xml version="1.0"?> 
+<info>
+	<id>check_email_nickname</id>
+	<name>Check email and nickname</name>
+	<description>Check user if fill email and nickname.</description>
+	<version>1.0</version>
+	<licence>AGPL</licence>
+	<author>Caro</author>
+	<require>3</require>
+</info>

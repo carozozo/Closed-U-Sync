@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+#   <wengxt@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ownCloud\n"
+"Report-Msgid-Bugs-To: http://owncloud.shapado.com/\n"
+"POT-Creation-Date: 2012-01-24 00:25+0100\n"
+"PO-Revision-Date: 2012-01-22 07:23+0000\n"
+"Last-Translator: csslayer <wengxt@gmail.com>\n"
+"Language-Team: Taiwan (http://www.transifex.net/projects/p/owncloud/team/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ajax/upload.php:19
+msgid "There is no error, the file uploaded with success"
+msgstr "檔案上傳成功。"
+
+#: ajax/upload.php:20
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "上傳檔案超過了php.ini 定義upload_max_filesize的值"
+
+#: ajax/upload.php:21
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr "上傳檔案超過了在 HTML 表單中指定的MAX_FILE_SIZE"
+
+#: ajax/upload.php:22
+msgid "The uploaded file was only partially uploaded"
+msgstr "上傳未完成"
+
+#: ajax/upload.php:23
+msgid "No file was uploaded"
+msgstr "檔案沒有上傳"
+
+#: ajax/upload.php:24
+msgid "Missing a temporary folder"
+msgstr "缺少暫存目錄"
+
+#: appinfo/app.php:8
+msgid "Files"
+msgstr "檔案總管"
+
+#: templates/admin.php:5
+msgid "Maximum upload size"
+msgstr "最大上傳大小"
+
+#: templates/index.php:7
+msgid "New"
+msgstr "新增"
+
+#: templates/index.php:10
+msgid "Text file"
+msgstr "文字檔"
+
+#: templates/index.php:11
+msgid "Folder"
+msgstr "目錄"
+
+#: templates/index.php:12
+msgid "From the web"
+msgstr "從網路"
+
+#: templates/index.php:22
+msgid "Upload"
+msgstr "上傳"
+
+#: templates/index.php:35
+msgid "Nothing in here. Upload something!"
+msgstr "您的空間沒有任何檔案，請上傳些檔案吧！"
+
+#: templates/index.php:43
+msgid "Name"
+msgstr "名稱"
+
+#: templates/index.php:45
+msgid "Download"
+msgstr "下載"
+
+#: templates/index.php:49
+msgid "Size"
+msgstr "大小"
+
+#: templates/index.php:50
+msgid "Modified"
+msgstr "修改日期"
+
+#: templates/index.php:50
+msgid "Delete"
+msgstr "刪除"
+
+#: templates/index.php:58
+msgid "Upload too large"
+msgstr "上傳檔案過大"
+
+#: templates/index.php:60
+msgid ""
+"The files you are trying to upload exceed the maximum size for file uploads "
+"on this server."
+msgstr "上傳檔案超過系統允許設定值。"
+
+

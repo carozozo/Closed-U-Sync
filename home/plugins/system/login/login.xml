@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>plg_system_login</name>
+	<author>Charles Jiang</author>
+	<creationDate>Dec 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 U-Sync. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>charles@u-sync.com</authorEmail>
+	<authorUrl>www.u-sync.com</authorUrl>
+	<version>2.5.1</version>
+	<description>PLG_SYSTEM_LOGIN_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="login">login.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_login.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_login.sys.ini</language>
+	</languages>
+</extension>

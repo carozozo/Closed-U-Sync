@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="圖層_1"
+   x="0px"
+   y="0px"
+   width="16px"
+   height="16px"
+   viewBox="0 0 100 100"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="synced.svg"><metadata
+   id="metadata16"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs14"><linearGradient
+     id="SVGID_1_"
+     gradientUnits="userSpaceOnUse"
+     x1="400.00049"
+     y1="717"
+     x2="400.00049"
+     y2="82.000504"
+     gradientTransform="translate(647247.46,19379.661)"><stop
+       offset="0"
+       style="stop-color:#6B6B6B"
+       id="stop4" /><stop
+       offset="1"
+       style="stop-color:#494949"
+       id="stop6" /></linearGradient><linearGradient
+     y2="82.000504"
+     x2="400.00049"
+     y1="717"
+     x1="400.00049"
+     gradientTransform="matrix(0.12820513,0,0,0.12820513,-1.2778667,-1.5109778)"
+     gradientUnits="userSpaceOnUse"
+     id="linearGradient3005"
+     xlink:href="#SVGID_1_"
+     inkscape:collect="always" /></defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview12"
+   showgrid="false"
+   inkscape:zoom="10.429825"
+   inkscape:cx="11.503989"
+   inkscape:cy="8.0943259"
+   inkscape:window-x="1920"
+   inkscape:window-y="290"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="圖層_1" />
+  
+<path
+   d="m 45.9888,21.053182 c -2.78976,-0.38464 -5.01024,-2.820587 -5.047467,-5.897494 h 0 c 0,0 0,-0.08107 0,-0.13152 0,-3.33664 -2.705066,-6.0222929 -6.041066,-6.0222929 H 15.717013 c -3.335893,0 -6.0410662,2.6855469 -6.0410662,6.0222929 0,0.05013 0,0.13152 0,0.13152 h -0.04267 c -0.03733,3.076907 -2.22688,5.512854 -5.1242665,5.897494 H 0 V 90.412111 H 99.999999 V 21.053182 H 45.98464 z m 4.065387,61.667413 c -14.447467,0 -26.16032,-11.667413 -26.17696,-26.154666 h -6.2 l 10.79488,-16.599787 0.6,0.928 c 0,0 0,0 0,0 l 5.60384,8.617813 c 0,0 0,0 0,0 l 4.59232,7.057814 h -6.121813 c 0.01707,9.35904 7.5808,16.88704 16.909013,16.88704 3.315413,0 6.4064,-0.951467 9.01536,-2.60032 l 5.052586,7.768213 c -4.062826,2.5952 -8.888426,4.099733 -14.067946,4.099733 z m 21.432,-9.538986 -0.552534,-0.845014 c 0,0 0,0 0,0 l -5.57952,-8.580586 c 0,0 0,-0.01067 0,-0.01067 l -4.662826,-7.182613 h 6.271786 c 0,0 0,-0.0128 0,-0.0224 0,-9.338454 -7.570453,-16.904321 -16.908906,-16.904321 -3.37312,0 -6.514134,0.990507 -9.152534,2.692267 l -5.051306,-7.769493 c 4.090986,-2.648534 8.966613,-4.18848 14.20384,-4.18848 14.456426,0 26.176853,11.71296 26.176853,26.169813 0,0.01067 0,0.0224 0,0.0224 h 6.050027 l -10.79488,16.61568 z"
+   id="path8"
+   style="fill:url(#linearGradient3005)"
+   inkscape:connector-curvature="0" /></svg>

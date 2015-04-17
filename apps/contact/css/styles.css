@@ -1,0 +1,104 @@
+/* 蓋掉core/css/styles.css裡的樣式*/
+tbody tr:hover, tr:active {
+	background-color: #FFFFFF;
+}
+
+#contactLayoutTable {
+	width: 100%;
+	padding: 2em;
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+#contactTab, #contactGroupTab, #contactSystemGroupTab, #contactInGroupTab {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+#contactGroupTab {
+	/*margin-left: 1em;*/
+}
+
+#contactLayoutTable #addTr td {
+	font-weight: bolder;
+	vertical-align: middle;
+}
+
+#contactLayoutTable .titleTr td {
+	/*text-align: center;*/
+	
+	font-weight: bolder;
+}
+
+#contactLayoutTable td {
+	padding: 0.3em;
+	font-size: 1.1em;
+}
+
+#groupName, #contactId {
+	width: 12em;
+}
+
+#contactGroupMainTable, #contactSystemGroupMainTable, #contactMainTable {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+#contactInGroupMainTable{
+	width: 20em;
+	vertical-align: bottom;
+}
+
+#contactGroupMainTable td, #contactSystemGroupMainTable td, #contactInGroupMainTable td, #contactMainTable td {
+	height: 2.5em;
+}
+
+#removeContactFromGroupButton, #addContactToGroupButton {
+	font-weight: bolder;
+	width: 8em;
+}
+#contactButtonTd {
+	height: 30em;
+	vertical-align: middle;
+}
+
+/*
+ #contactGroupMainTable tbody, #contactInGroupMainTable tbody, #contactMainTable tbody {
+ background-color: #F0F0F0;
+ }
+ #contactGroupMainTable tbody tr:hover, #contactGroupMainTable tbody tr:active, #contactInGroupMainTable tbody tr:hover, #contactInGroupMainTable tbody tr:active, #contactMainTable tbody tr:hover, #contactMainTable tbody tr:active {
+ background-color: #F0F0F0;
+ }*/
+
+#contactGroupListDiv, #contactSystemGroupListDiv, #contactInGroupDiv, #contactListDiv {
+	margin: 1em;
+	height: 30em;
+	overflow: auto;
+	/*text-align: center;*/
+}
+#contactGroupListTable, #contactInGroupTable, #contactListTable {
+	width: 100%;
+}
+#contactGroupListTable td, #contactInGroupTable td, #contactListTable td {
+	padding: 0em;
+}
+
+/*#contactInGroupTable td {
+ text-align: center;
+ }*/
+
+.groupButtonTd, .contactButtonTd {
+	width: 10%;
+}
+
+#contactGroupListTable td, #contactListTable td {
+	vertical-align: middle;
+}
+
+#removeContactFromGroupButton, #addContactToGroupButton {
+	width: 10em;
+}

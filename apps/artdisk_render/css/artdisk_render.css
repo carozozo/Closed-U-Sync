@@ -1,0 +1,8 @@
+#artdiskRenderBtn {
+	float: left;
+	position: relative;
+	height: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: 0.5em;
+}

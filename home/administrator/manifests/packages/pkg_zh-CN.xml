@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+    <name>简体中文Simplified Chinese</name>
+	<tag>zh-CN</tag>
+    <packagename>zh-CN</packagename>
+    <version>2.5.7.1</version>
+	<creationDate>2012-09-08</creationDate>
+	<author>CHN Translation Team</author>
+	<authorEmail>zhous1998@sohu.com</authorEmail>
+	<authorUrl>www.joomla.cn</authorUrl>
+	<copyright>Copyright (C) 2010 CHN Joomla Translation Team  (http://joomlacode.org/gf/project/choice/). All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<packager>Joomla! China</packager>
+	<packagerurl>www.joomla.cn</packagerurl>
+	<description>
+	<![CDATA[
+	<h3>Joomla! 2.5.7简体中文语言包第一版</h3>
+    <h3>Joomla! 2.5.7 Full Simplified Chinese (zh-CN) Language Package version 1</h3>
+    <h3>本安装包已包含Joomla核心编辑器TinyMCE 3.4.9的中文语言</h3>
+	<div>
+	Joomla 2.5.7语言是由Joomla官方翻译组的Derek Joe组织翻译。工作是在Joomla1.6的基础上进行的。Joomla 2.5.7语言的补充由Derek Joe完成。感谢Joomla简体中文翻译组的所有志愿者：武玉杰、Key Diagram、Yusuf  Wang、郭志攀、Eric Wong（http://berocks2.com/）、wayne82！翻译基地：<a href="http://www.joomla.cn" target="_blank">囧啦!中国（Joomla.cn）</a>。翻译与使用交流：：<a href="http://weibo.com/joomlacn" target="_blank">囧啦中国（新浪微博）</a>。欢迎喜欢翻译的朋友加入我们。<br><br>
+	为了更好地使用Joomla，Derek更新了Joomla核心编辑器TinyMCE的简体中文语言。<br> <br>
+	</div>
+	]]>
+	</description>
+ <files>
+        <file type="language" client="site" id="zh-CN">site_zh-CN.zip</file>
+        <file type="language" client="administrator" id="zh-CN">admin_zh-CN.zip</file>
+		<file type="file" client="site" id="TinyMCE_zh-CN">tinymce_zh-CN.zip</file>
+  </files>
+<updateservers>
+<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+</updateservers>
+</extension>

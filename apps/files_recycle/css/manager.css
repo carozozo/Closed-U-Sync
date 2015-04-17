@@ -1,0 +1,67 @@
+#recycleListLayoutDiv {
+    padding: 2em;
+}
+#recycleListTable {
+    width: 100%;
+    padding: 0.5em;
+}
+
+#pathTr {
+    /*	background-color: #EBDFDF;*/
+    background-color: #0faddb;
+}
+
+#pathTd {
+    color: #FFFFFF;
+}
+
+#cleanUpBtn {
+    display: none;
+}
+
+.selectedBtn {
+    display: none;
+}
+
+#topBtn, #bakBtn {
+    display: none;
+}
+
+.titleTd {
+    font-weight: bolder;
+    font-size: larger;
+    color: #888888;
+}
+
+#recycleListTable td {
+    padding: 0.5em;
+}
+
+.fileSizeTd, .btnTd {
+    width: 20px;
+}
+
+.btnTd {
+    text-align: right;
+}
+
+.selectTd {
+    width: 5px;
+}
+
+.openBtn {
+    display: none;
+}
+
+#emptyMessage {
+    position: absolute;
+    margin: 10em 0 0 10em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #888;
+    text-shadow: #fff 0 1px 0;
+}
+
+.sortClass {
+    cursor: pointer;
+}

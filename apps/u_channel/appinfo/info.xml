@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>u_channel</id>
+	<name>U-Channel</name>
+	<description>The HLS Channel</description>
+	<version>1</version>
+	<licence>AGPL</licence>
+	<author>Caro Huang</author>
+	<require>3</require>
+	<!-- <default_enable/> -->
+	<!-- <types>
+		<filesystem/>
+	</types> -->
+</info>

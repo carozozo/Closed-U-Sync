@@ -1,0 +1,57 @@
+#groupShareListLayoutDiv {
+	padding: 2em;
+}
+#groupShareListTable {
+	width: 100%;
+	padding: 0.5em;
+}
+
+#groupShareTitleTr {
+	/*	background-color: #EBDFDF;*/
+	background-color: #B3CC63;
+}
+
+#groupShareListTable .groupShareTitleTd {
+	font-weight: bolder;
+	/*font-size:larger;*/
+	font-size: 20px;
+}
+
+.groupShareTr {
+	font-size: 15px;
+}
+
+#groupShareListTable th, #groupShareListTable td {
+	padding: 0.5em;
+}
+
+#emptyMessage {
+	position: absolute;
+	margin: 10em 0 0 10em;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #888;
+	text-shadow: #fff 0 1px 0;
+}
+
+.sortClass {
+	cursor: pointer;
+}
+
+/*#groupShareLayoutTable td{
+ text-align: center;
+ vertical-align: top;
+ padding: 2em;
+ }
+ #shareContactGroupListMainTable, #groupMainTable,#groupListTable, #contactMainTable,#contactListTable ,#sharedMainTable,#sharedListTable{
+ width: 100%;
+ height: 100%;
+ }
+ #shareContactGroupListMainTable td, #groupMainTable td, #contactMainTable td,#sharedMainTable td{
+ text-align:left;
+ padding: 3px;
+ }
+
+ #titleTr{
+ font-weight: bolder;
+ }*/

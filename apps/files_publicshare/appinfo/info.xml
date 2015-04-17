@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_publicshare</id>
+	<name>Public Share Files</name>
+	<description>Create Public Link Of Files To Share</description>
+	<version>2.0</version>
+	<licence>AGPL</licence>
+	<author>Caro.Huang</author>
+	<require>2</require>
+	<default_enable/>
+	<types>
+		<filesystem/>
+	</types>
+</info>

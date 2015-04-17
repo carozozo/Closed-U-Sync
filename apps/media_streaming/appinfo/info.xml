@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<info>
+	<id>media_streaming</id>
+	<name>Media Streaming</name>
+	<description>Play the media with streaming</description>
+	<version>2.0</version>
+	<licence>AGPL</licence>
+	<author>Caro Huang</author>
+	<require>2</require>
+	<types>
+		<filesystem/>
+	</types>
+</info>

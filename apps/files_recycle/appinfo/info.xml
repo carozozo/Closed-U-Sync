@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<info>
+	<id>files_recycle</id>
+	<name>Recycle</name>
+	<description>檔案資源回收桶</description>
+	<version>2.0</version>
+	<licence>GPL</licence>
+	<author>Caro Huang</author>
+	<types>
+		<filesystem/>
+	</types>
+</info>

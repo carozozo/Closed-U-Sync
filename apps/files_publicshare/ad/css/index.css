@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+#adMainTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#adMainTable td {
+    padding: 8px;
+}
+
+#titleTr {
+    background-color: #0DAEE6;
+}
+
+#adTd {
+    text-align: center;
+}
+
+#searchImg {
+    float: right;
+    margin-top: 8px;
+}
+
+#slogan {
+    float: right;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: #999999;
+}

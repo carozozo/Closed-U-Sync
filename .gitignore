@@ -1,0 +1,10 @@
+/.settings
+/.project
+/config/config.php
+/data
+/home/logs
+/home/installation
+/home/configuration.php
+/robots.txt
+/sapi/inc_server.php
+/.metadata

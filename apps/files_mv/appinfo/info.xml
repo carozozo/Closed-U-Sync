@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<info>
+	<id>files_mv</id>
+	<name>Files Move</name>
+	<description>Move for the files interface</description>
+	<version>2.0</version>
+	<licence>GPL</licence>
+	<author>Caro Huang</author>
+</info>

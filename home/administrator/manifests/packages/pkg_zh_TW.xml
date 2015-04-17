@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+   <name>Traditional Chinese Language Pack</name>
+   <packagename>zh-TW</packagename>
+   <version>2.5.7.2</version>
+   <creationDate>2012-10-01</creationDate>
+   <author>Traditional Chinese translation team</author>
+   <authorEmail>eddy@joomla.org.tw</authorEmail>
+   <authorUrl>www.joomla.org.tw</authorUrl>
+    <copyright>Copyright (C) 2005 - 2012 Copyright (C) 2005 - 2012 Open Source Matters &amp; Taiwan Joomla! Community All rights reserved.</copyright>
+   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+   <url></url>
+   <packager>Joomla! Traditional Chinese</packager>
+   <packagerurl>www.joomla.org.tw</packagerurl>
+   <description>
+      <![CDATA[
+      <h3>Joomla! 2.5.7 繁體中文(zh-TW)完整語言包，版本2</h3>
+      <h3>Joomla! 2.5.7 Traditional Chinese (zh-TW) Language Package version 2</h3>
+      ]]>
+   </description>
+   <files>
+        <file type="language" client="site" id="zh-TW">site_zh-TW.zip</file>
+        <file type="language" client="administrator" id="zh-TW">admin_zh-TW.zip</file>
+  </files>
+    <updateservers>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+    </updateservers>
+</extension>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<info>
+	<id>getfile</id>
+	<name>Getfile</name>
+	<description>Get a file from the Internet http->owncloud instead of http->computer->owncloud</description>
+	<version>0.22</version>
+	<licence>AGPL</licence>
+	<author>Martin Fiedler</author>
+</info>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+<info>
+	<id>contact</id>
+	<name>Contact</name>
+	<description>Contact.</description>
+	<version>1.0</version>
+	<licence>AGPL</licence>
+	<author>Caro</author>
+	<require>3</require>
+	<default_enable/>
+	<types>
+		<filesystem/>
+	</types>
+</info>

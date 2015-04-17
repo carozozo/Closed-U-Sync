@@ -1,0 +1,24 @@
+#getfileI {
+	float: left;
+	position: relative;
+	width: fixed;
+	height: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: 0.5em;
+}
+#getfileUI {
+	display: block;
+	position: fixed;
+	padding: 0.5em;
+	margin-left: -1em;
+	background: #F8F8F8;
+	/*border:1px solid #DDD;*/
+	border: 1px solid #0faddb;
+	box-shadow: 2px 2px 2px rgba(10%,20%,30%,0.3);
+	/*border-top: 0;*/
+	z-index: 100;
+}
+#getfileUI > input {
+	margin: 0.5em;
+}

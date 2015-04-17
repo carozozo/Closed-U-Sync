@@ -1,0 +1,44 @@
+#menuTitleDiv {
+    padding: 1em;
+    font-weight: bolder;
+}
+
+.dirListTable {
+    /*border-style: solid;*/
+    /*table-layout: fixed;*/
+    width: 150px;
+    float: left;
+    margin-left: 0.5em;
+    padding: 0.5em;
+    box-shadow: 2px 2px 3px rgba(10%,30%,30%,0.3);
+}
+
+.dirPathTd {
+    border-style: solid;
+    padding: 0.5em;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCCCCC;
+}
+
+#loadingImg {
+    display: none;
+}
+
+.parentTr {
+    visibility: hidden;
+}
+
+.arrowSpan {
+    margin-right: 0px;
+    float: right;
+}
+
+#msgSpan {
+    font-size: small;
+    background-color: #FFCC44;
+}
+
+#copyBtn {
+    color: #FFFFFF;
+    background-color: #0FADDB;
+}

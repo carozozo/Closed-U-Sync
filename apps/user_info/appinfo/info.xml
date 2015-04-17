@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>user_info</id>
+	<name>User Info</name>
+	<description>Let user see the infomations and alert them</description>
+	<version>1</version>
+	<licence>AGPL</licence>
+	<author>Caro Huang</author>
+	<require>3</require>
+	<default_enable/>
+	<!-- <types>
+		<filesystem/>
+	</types> -->
+</info>

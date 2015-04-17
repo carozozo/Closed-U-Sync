@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<info>
+	<id>artdisk_render</id>
+	<name>Artdisk Render</name>
+	<description>台藝大算圖農場</description>
+	<version>1.0</version>
+	<licence>AGPL</licence>
+	<author>Caro Huang</author>
+	<require>2</require>
+	<types>
+		<filesystem/>
+	</types>
+</info>

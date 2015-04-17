@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>u_drive</id>
+	<name>U-Drive Sync</name>
+	<description>Hooks the File System,Insert the catch to DB for Sync</description>
+	<version>0.1</version>
+	<licence>AGPL</licence>
+	<author>Caro.</author>
+	<require>2</require>
+	<default_enable/>
+	<types>
+		<filesystem/>
+	</types>
+</info>

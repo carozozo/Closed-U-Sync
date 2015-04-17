@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>u-sync_get_quota_link</id>
+	<name>U-Sync Get Quota Link</name>
+	<description>U-Sync Get Quota Link</description>
+	<version>0.1</version>
+	<licence>AGPL</licence>
+	<author>Caro.Huang</author>
+	<require>2</require>
+	<default_enable/>
+	<!-- <types>
+		<filesystem/>
+	</types> -->
+</info>

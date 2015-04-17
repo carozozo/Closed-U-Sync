@@ -1,0 +1,123 @@
+#notificationBtn {
+	position: relative;
+	/*right: 0px;*/
+	float: left;
+	/*padding-top: 0em;*/
+	margin-right: 0.5em;
+	margin-right: 0.5em;
+	/*width: 6em;*/
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: bolder;
+	/*color: #fff;*/
+	/*cursor: pointer;*/
+}
+#notificationImg {
+	cursor: pointer;
+	vertical-align: middle;
+	height: 16px;
+}
+
+#notificationTitle {
+	cursor: pointer;
+}
+
+#notificationCount {
+	/*float: left;*/
+	float: right;
+	margin-top: 0.5em;
+	width: 20px;
+	height: 20px;
+	/*border:4px;*/
+	border-radius: 10px;
+	/*border-color: #f00;*/
+	color: #fff;
+	/*line-height: 100px;*/
+	text-align: center;
+	background: #CC0000;
+}
+
+#notificationDiv {
+	position: absolute;
+	float: right;
+	/*padding: 0.5em;*/
+	top: 2.5em;
+	right: 4em;
+	/*margin-right: 5em;*/
+	border: 3px solid #CCCCCC;
+	background: #fff;
+	box-shadow: 5px 5px 5px #888888;
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #000;
+}
+
+#notificationMessMainDiv {
+	width: 20em;
+	height: auto;
+	overflow: auto;
+}
+
+.notificationMessDiv {
+	padding: 0.5em;
+}
+
+.notificationDateSpan {
+	color: #BBBBBB;
+}
+
+.notificationDelSpan {
+	font-size: 0.8em;
+	float: right;
+	color: #BBBBBB;
+	cursor: pointer;
+}
+
+#noMess {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 80%;
+	text-align: center;
+}
+
+#notificationOptDiv {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: #0055BB;
+	text-align: center;
+	/*cursor: pointer;*/
+}
+
+#notificationAllSpan {
+	cursor: pointer;
+	margin-right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#notificationClearSpan {
+	cursor: pointer;
+	margin-left: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	/*float: right;*/
+}
+
+.allNotificationMessDiv {
+	padding: 0.5em;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+.allNotificationDateSpan {
+	/*float: right;*/
+	color: #BBBBBB;
+	margin-left: 5em;
+}
+
+.allNotificationDelSpan {
+	float: right;
+	color: #BBBBBB;
+	margin-left: 5em;
+	cursor: pointer;
+}

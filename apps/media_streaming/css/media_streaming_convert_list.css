@@ -1,0 +1,12 @@
+#mediaConvertListTable, .mediaConvertTable {
+	width: 800px;
+}
+
+.convertTr {
+	border-bottom:#000000;
+}
+
+.mediaConvertTable {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}

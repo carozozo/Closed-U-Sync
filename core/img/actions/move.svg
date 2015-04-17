@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<g id="background">
+	<rect x="-8" y="8" fill="none" width="32" height="32"/>
+</g>
+<g id="move">
+	<path d="M3,11.001V4.999L0,8.001L3,11.001z M13,4.999v6.002l3-3L13,4.999z M5,3h6L8,0L5,3z M8,16l3-3H5L8,16z M8,4.999
+		c-1.657,0-3,1.344-3,3.002c0,1.655,1.342,2.998,2.999,3c1.657-0.002,3-1.345,3-3l0,0C11,6.343,9.656,4.999,8,4.999z M8,9.998
+		C6.897,9.996,6.002,9.105,6,8.001C6.002,6.896,6.897,6.002,8,6c1.103,0.002,1.998,0.895,2,1.999l0,0
+		C9.998,9.105,9.104,9.996,8,9.998z"/>
+</g>
+</svg>

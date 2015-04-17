@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<database>
+  <name>*dbname*</name>
+  <create>true</create>
+  <overwrite>false</overwrite>
+  <charset>latin1</charset>
+  <table>
+    <name>*dbprefix*recycle</name>
+    <declaration>
+      <field>
+        <name>userId</name>
+        <type>text</type>
+        <notnull>true</notnull>
+        <length>50</length>
+      </field>
+      <field>
+        <name>origin_path</name>
+        <type>text</type>
+        <notnull>true</notnull>
+        <length>256</length>
+      </field>
+      <field>
+        <name>recycled_date</name>
+        <type>timestamp</type>
+        <default>0000-00-00 00:00:00</default>
+        <notnull>true</notnull>
+      </field>
+      <index>
+        <name>userId_path_date_key</name>
+        <primary>true</primary>
+        <field>
+          <name>userId</name>
+          <sorting>ascending</sorting>
+        </field>
+        <field>
+          <name>origin_path</name>
+          <sorting>ascending</sorting>
+        </field>
+        <field>
+          <name>recycled_date</name>
+          <sorting>ascending</sorting>
+        </field>
+      </index>
+    </declaration>
+  </table>
+</database>

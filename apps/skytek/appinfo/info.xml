@@ -1,0 +1,10 @@
+<?xml version="1.0"?> 
+<info>
+	<id>skytek</id>
+	<name>Skytek 3 party support</name>
+	<description>此APP是為了支援天方科技需求而設立</description>
+	<version>1.0</version>
+	<licence>AGPL</licence>
+	<author>Caro</author>
+	<require>3</require>
+</info>

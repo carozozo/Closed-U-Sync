@@ -1,0 +1,1 @@
+<?php $TRANSLATIONS = array('Get More Quota' => '獲得更多空間', );

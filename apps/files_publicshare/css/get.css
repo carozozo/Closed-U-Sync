@@ -1,0 +1,92 @@
+#getMainTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#adIframe {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#messDiv {
+    /*width: 680px;*/
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pwdDiv {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    display: none;
+}
+
+#fileListTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: none;
+}
+
+#fileListTable td {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #D3D3D3;
+    padding-left: 10px;
+    padding-bottom: 0.2em;
+}
+
+.fileListTd {
+    padding-top: 0.5em;
+}
+
+#titleTd {
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#pathTr {
+    background-color:#0DAEE6;
+    color: #FFFFFF;
+}
+
+#pathTd {
+    font-weight: bolder;
+}
+
+#pathTd, .sourcePathSpan {
+    font-size: 1.2em;
+}
+
+.pathSpan {
+    cursor: pointer;
+}
+
+#titleTr {
+    /*background-color: #E6E6E6;*/
+    color: #888888;
+}
+
+.fileNameTd {
+    width: 85%;
+}
+
+.fileSizeSpan {
+    float: right;
+}
+
+.btnDiv {
+    float: right;
+}
+
+.downloadDiv {
+    display: none;
+}

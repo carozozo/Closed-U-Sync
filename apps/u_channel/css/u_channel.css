@@ -1,0 +1,44 @@
+#uChanneMainTable {
+	/*position: fixed;*/
+	width: 100%;
+	height: 100%;
+}
+#uChanneListLayoutTd {
+	width: 20em;
+	background-color: #CBCFD4;
+	vertical-align: top;
+}
+#uChannelListTable {
+	width: 100%;
+}
+#uChannelListTable td {
+	text-align: center;
+	border-bottom-color: #BDC3BD;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	/*background-color: #CBCFD4;*/
+	cursor: pointer;
+	padding: 1em 2em 1em 2em;
+}
+#uChannelListTable td:hover {
+	color: #FFFFFF;
+	/*background-color: #CCCCCC;*/
+}
+#uChannelListTable td:active {
+	color: #FFFFFF;
+	/*background-color: #CCCCCC;*/
+}
+.channelSpan {
+	font-size: 1.2em;
+	font-weight: bolder;
+	cursor: pointer;
+}
+#uChannePlayerLayoutTd {
+	/*width: 85%;*/
+	background-color:#000000;
+}
+#uChannelPlayerLayoutTable {
+	/*margin-left: 10em;*/
+	margin-left: auto;
+	margin-right: auto;
+}

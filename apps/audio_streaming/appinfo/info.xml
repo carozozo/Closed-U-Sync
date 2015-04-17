@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<info>
+	<id>audio_streaming</id>
+	<name>Audio Streaming</name>
+	<description>Play the music with streaming</description>
+	<version>1.0</version>
+	<licence>AGPL</licence>
+	<author>Caro Huang</author>
+	<require>2</require>
+	<types>
+		<filesystem/>
+	</types>
+</info>

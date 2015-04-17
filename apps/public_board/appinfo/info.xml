@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>public_board</id>
+	<name>Public Board</name>
+	<description>The Public Board</description>
+	<version>1</version>
+	<licence>AGPL (Icon taken from www.softicons.com, Icon Set "Rhon Icons" by Harenome Razanajato, GPL)</licence>
+	<author>Caro Huang</author>
+	<require>3</require>
+	<types>
+		<filesystem/>
+	</types>
+	<default_enable/>
+</info>
